@@ -1,5 +1,5 @@
 document.getElementById('searchButton').addEventListener('click', function() {
-  const url = "http://localhost:3001";
+  const url = "https://google-reverse-image-api.vercel.app/reverse"
   const data = { imageUrl: "https://fastly.picsum.photos/id/513/200/300.jpg?hmac=KcBD-M89_o9rkxWW6PS2yEfAMCfd3TH9McppOsf3GZ0" };
 
   fetch(url, {
